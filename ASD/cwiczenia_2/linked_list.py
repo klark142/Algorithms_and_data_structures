@@ -6,6 +6,7 @@ class Node:
         self.val = val
         self.next = None
 
+
 def insert_node(p, new_element):
     g = new_element
     while p.next is not None and p.next.val < new_element.val:
@@ -13,6 +14,7 @@ def insert_node(p, new_element):
     p.next = new_element.next
     new_element.next = p
     return g
+
 
 def insertion_sort_linked_list(p):
     head = p
