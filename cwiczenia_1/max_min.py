@@ -16,6 +16,7 @@ def solve(t):
 # dana jest posorotwana tablica t z dodatnimi wartosciami oraz zadajemy
 # liczbe x, znalezc takie 2 indeksy i, j, ze roznica t[j] - t[i] = x
 
+
 def solve(t, target):
     n = len(t)
     i, j = 0, 1
